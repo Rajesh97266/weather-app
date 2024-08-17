@@ -10,7 +10,7 @@ import WeatherImage from "./WeatherImage"; // Import WeatherImage
 
 function App() {
   let api_key = "ef8d6889a1f644687c55d6a48c5accaa";
-  const [text, setText] = useState("chennai");
+  const [text, setText] = useState("Chennai");
   const [icon, setIcon] = useState(SnowIcon);
   const [temp, setTemp] = useState(30);
   const [city, setCity] = useState("chennai");
